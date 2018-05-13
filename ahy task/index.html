@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="javascript.fullPage.css" />
+  
+<link href="css/style.css" rel="stylesheet">
+<link href="css/rtr.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript">
+  function validate()
+  {
+    
+      var validation = $("#fname").val();
+      var validation2 = $("#lname").val();
+      var validation3 = $("#email").val();
+      var validation4 = $("#phno").val();
+      var validation5 = $("#pwd").val();
+      var validation6 = $("#city").val();
+      
+      if(validation === "" || validation2 === "" || validation3 === "" || validation4 === "" || validation5 === "" || validation6 === "" )
+      {
+        swal ( "Oops" ,  "Please fill all fields" ,  "error" );
+        
+      }
+      else
+      {
+        swal("Congrats!", "Registered Successfully", "success");
+      }     
+
+}
+    </script>
+</head>
+
+<body>
+  <header id="home">
+<nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="50">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/LOGO.png" alt="logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-center">
+        <li><a href="#">PARTNER</a></li>
+        <li><a href="#">WORKERS</a></li>
+		    <li><a href="#">ABOUT/HELP</a></li>
+        <li class="insta">  
+          <a href="www.instagram.com">
+              <img src="images/inst.png">
+          </a>
+       </li>
+    <li class="fb">
+          <a href="www.facebook.com">
+              <img src="images/fb.png" style="border-radius:35px";>
+          </a>
+    </li>
+    <li class="tweet">
+          <a href="www.twitter.com">
+              <img src="images/tweet.png" style="width: 35px;border-radius:35px;">
+          </a>
+    </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+  <div id="fullpage">
+    <div class="section" id="section0">
+      <div class="content">
+        <div class="banner">
+   
+    <a class="navbar-brand" href="#"><img src="images/driverbannerimg.png" alt="logo"></a>
+    
+    <h1>Work Our</h1><br>
+    <h3>Amazing</h3><br>
+    <h4>Products</h4>
+  </div>
+  <div id="form" method="post">
+     <form name="form1" method="post">
+        <h2>Sign up to Work</h2>
+        <div class="signup-row">
+            <input type="text" id="fname" placeholder="First Name" required>
+            <input type="text" id="lname" placeholder="Last Name" required><br>
+        </div>
+        <div class="signup-row1">
+            <input type="text" id="email" placeholder="Email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" title="the pattern should be xyz@gmail.com" required>
+            <input type="text" id="phno" placeholder="Mobile No" pattern="[7-9]{1}[0-9]{9}" title="Enter 10 digit mobile number"required>
+            <input type="password" id="pwd" placeholder="Create Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+            <input type="text" id="city" placeholder="City" required>
+            <button class="button" onclick="validate();">SIGN UP</button>    
+        </div>
+        </form>
+  </div>
+      </div>
+    </div>
+    <div class="section" id="section1">
+      <div class="contenthost">
+        <h1 class="page-title1">You are your own BOSS</h1>
+        <h6 class="heading">Deliver,Earn on your schedule</h6>
+      </div>
+      <div id="sec1">
+          <img src="images/ph.png" class="ph1"alt="logo1">
+       <div class="desc">
+          Lorem Ipsum is simply dummy text o<br>
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+       </div>
+      </div>
+      <div id="sec2">
+          <img src="images/trolley.png" class="ph2"alt="logo2">
+         <div class="desc1">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+         </div>
+    </div>
+    <div id="sec3">
+          <img src="images/trolley.png" class="ph3"alt="logo2">
+       <div class="desc2">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+       </div>
+  </div>
+    </div>
+    <div class="section" id="section2">
+      <footer id="footer" class="custom-footer  m-none">
+    </div>
+  </div>
+
+  <script type="text/javascript" src="javascript.fullPage.js"></script>
+  <script type="text/javascript">
+    fullpage.initialize('#fullpage', {
+      anchors: ['firstPage', 'secondPage', 'lastpage'],
+      menu: '#menu',
+      scrollingSpeed: 700,
+      autoScrolling: true,
+      fitToSection: true,
+      fitToSectionDelay: 1000,
+      scrollBar: false,
+      scrollOverflow: true,
+      css3: true
+    });
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+#form {
+    left: 659px;
+    top: 169px;
+    position: absolute;
+    width: 576px;
+    height: 600px;
+    z-index: 21;
+    background-color: #F0F0F0;
+}
+.banner h1{
+    font-size: 10vh;
+    color: whitesmoke;
+    left: 177px;
+    top: 334px;
+    position: absolute;
+    width: 294px;
+    height: 54px;
+    z-index: 37;
+}
+
+.banner h3{
+    font-weight: 700;
+    font-size: 10vh;
+    color: whitesmoke;
+    left: 180px;
+    top: 62vh;
+position: absolute;
+width: 305px;
+height: 69px;
+z-index: 39;
+}
+
+.banner h4{
+    color: whitesmoke;
+    font-size: 10vh;
+    left: 181px;
+    top: 75vh;
+position: absolute;
+width: 296px;
+height: 56px;
+z-index: 38;
+}
+#form h2{
+    margin: 0 13vw;
+    margin-top: 10vh;
+}
+
+
+@media (min-width: 768px)
+{
+.navbar-nav {
+    /* float: left; */
+    margin: 0 25vw;
+}
+}
+
+
+.signup-row input {
+    margin: 0 20px;
+    padding: 15px 0px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background: transparent;
+    width: 41%;
+    text-align: left;
+    outline: none;
+    color: black;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size: 22px;
+}
+.signup-row1 input {
+    margin: 0 20px;
+    padding: 15px 0px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background: transparent;
+    width: 90%;
+    text-align: left;
+    outline: none;
+    color: black;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size: 22px;
+}
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 27px 190px;
+    cursor: pointer;
+}
+.contenthost{
+  padding: 10vw 35vw;
+}
+.heading{
+    font-size: 3vh;
+    margin: 0 5vw;
+}
+
+#sec1{
+    background-color: #F0F0F0;
+    left: 42px;
+    top: 270px;
+    position: absolute;
+    width: 757px;
+    height: 261px;
+    z-index: 44;
+}
+
+.ph1{
+margin: 4vh;
+}
+
+.desc{
+    margin: -24vh 18vw;
+}
+
+#sec2{
+    background-color: #F0F0F0;
+left: 42px;
+top: 540px;
+position: absolute;
+width: 757px;
+height: 261px;
+z-index: 48;
+}
+.ph2{
+    margin: 4vh 38vw;
+    }
+
+    
+.desc1{
+   margin: -25vh 1vw;
+}
+
+#sec3{
+    background-color: #F0F0F0;
+    left: 810px;
+    top: 272px;
+    position: absolute;
+    width: 410px;
+    height: 530px;
+    z-index: 52;
+}
+.ph3{
+    margin: 2vh 7vw;
+    }
+
+    
+.desc2{
+   margin: 2vh 2vw;
+}
+
+.fb{
+    left: 24vw;
+    top: -4px;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    z-index: 14;
+}
+.insta{
+    left: 24vw;
+    top: -4px;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    z-index: 14;
+}
+.tweet{
+    left: 24vw;
+    top: -4px;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    z-index: 14;
+}
+
+#footer {
+    height: 53vh;
+    bottom: -47vh;
+    background: #0e0e0e;
+    border-top: 4px solid #0e0e0e;
+    font-size: 0.9em;
+    padding: 70px 0 0;
+    position: relative;
+    clear: both;
+}
